@@ -41,24 +41,102 @@ body{
   }
 
 .imagemInicial{
-    text-align: justify;
-    width: 100%;
+    text-align: right;
+    width: 200%;
     max-width: 960px;
+    margin: 2vw;
 }
 
 .btnPaginas{
+    text-decoration: none;
     background-color: darkcyan;
     border-bottom: rgb(3, 109, 109);
     color: lawngreen;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 15px;
-    width: 100%;
+    width: 200%;
     padding: 30px;
-    margin: 2vh;
+    margin: 3vh;
+    height: 30px;
 }
 
 .btnPaginas:hover{
-    background-color: darkblue;
+    background-color: rgb(8, 80, 80);
     cursor: pointer;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .titulo {
+        width: 30vw;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .imagemTitulo {
+        width: 70vw;
+   
+    }
+    .btnPaginas{
+        text-decoration: none;
+        background-color: darkcyan;
+        border-bottom: rgb(3, 109, 109);
+        color: lawngreen;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 15px;
+        width: 200%;
+        padding: 30px;
+        margin: 3vh;
+        height: 30px;
+    }
+    .flexbox{
+        display: grid;
+        gap: 1vw 10vw;
+        width: 80%;
+        grid-template-columns: 45vw 40vw;
+    }
+    .imagemInicial{
+        text-align: right;
+        width: 80%;
+        max-width: 960px;
+        margin: 2vw;
+    }
+}
+@media screen and (max-width: 481px){
+    .titulo {
+        width: 30vw;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .imagemTitulo {
+        width: 70vw;
+   
+    }
+    .btnPaginas{
+        text-decoration: none;
+        background-color: darkcyan;
+        border-bottom: rgb(3, 109, 109);
+        color: lawngreen;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 15px;
+        width: 200%;
+        padding: 30px;
+        margin: 3vh;
+        height: 30px;
+    }
+    .flexbox{
+        display: grid;
+        gap: 1vw 10vw;
+        width: 80%;
+        grid-template-columns: 45vw 40vw;
+    }
+    .imagemInicial{
+        text-align: right;
+        width: 80%;
+        max-width: 960px;
+        margin: 2vw;
+    }
 }

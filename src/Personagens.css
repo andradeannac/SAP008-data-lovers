@@ -13,8 +13,14 @@ body{
     font-size: 25px;
 }
 
-/*titulo*/
-
+/*Header*/
+.btnVoltar{
+    background-color: darkcyan;
+    width: 3vw;
+    margin: 2vw;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
 .titulo {
     height: 40vh;
     width: 100vw;
@@ -45,7 +51,7 @@ img {
 .pesquisar::placeholder{
     color: lawngreen;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .btnSubmit{
@@ -56,7 +62,7 @@ img {
 .btnFiltro{
     background-color: darkcyan;
     color: lawngreen;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 15px;
     margin: 2vh;
@@ -69,8 +75,16 @@ img {
 }
 .pesquisar:hover,
 .btnFiltro:hover{
-    background-color: darkblue;
+    background-color:  rgb(8, 80, 80);
     cursor: pointer;
+}
+
+#percentualTotal{
+    color: antiquewhite;
+    background-color: darkcyan;
+    padding: 1vw;
+    border-radius: 10px;
+    text-align: center;
 }
 /*cards*/
 .mostrarCards{
@@ -90,7 +104,7 @@ img {
 .infos{
     background-color: darkcyan;
     color: lawngreen;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 15px;
     width: 200px;
@@ -129,28 +143,28 @@ img {
         width: 50vw;
     }
 
-    .btnSubmit{
-        width: 3vh;
-        margin: 2vh;
-    }
-
-
     /*filtros*/
+    .btnVoltar{
+        background-color: darkcyan;
+        width: 5vw;
+        margin: 1vw;
+        padding: 0.5vw;
+        border-radius: 10px;
+    } 
 
     .menu{
-        display: flex;
-        justify-content: center;
-        padding: 10px;
+        display: grid;
+        gap: 2vw 30vw;
+        grid-template-columns: 10vw 10vw;
+    
     }
 
     .btnFiltro{
         background-color: darkcyan;
         color: lawngreen;
-        text-align: center;
         border-radius: 15px;
-        width: 15vw;
-        margin: 8px 2px;
-        font-size: 0.8rem;
+        width: 20vw;
+        font-size: 1rem;
         height: 4vh;
     }
 
@@ -171,9 +185,71 @@ img {
     .infos{
         background-color: darkcyan;
         color: lawngreen;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         border-radius: 15px;
         width: 30vw;
     }
+}
+
+@media screen and (max-width: 481px){
+        /*imagem de titulo*/
+        .titulo{
+            height: 29vh;
+            width: 50vw;
+    
+        }
+    
+        /*área de pesquisa*/
+        .pesquisar{
+            height: 6vh;
+            width: 50vw;
+        }
+    
+        /*filtros*/
+        .btnVoltar{
+            background-color: darkcyan;
+            width: 5vw;
+            margin: 1vw;
+            padding: 0.5vw;
+            border-radius: 10px;
+        } 
+        .menu{
+            display: grid;
+            gap: 2vw 30vw;
+            grid-template-columns: 10vw 10vw;
+        
+        }
+    
+        .btnFiltro{
+            background-color: darkcyan;
+            color: lawngreen;
+            border-radius: 15px;
+            width: 20vw;
+            font-size: 1rem;
+            height: 4vh;
+        }
+    
+        /*Cards*/
+        .mostrarCards{
+            display: grid;
+            grid-template-columns: 20vw 20vw;
+            gap: 1vw 20vw;
+            margin: 50px;
+            width: 100%;
+        }
+        .cards{
+            border-radius: 150px;
+            width: 30vw;
+            margin: 5px;
+        }
+        .nomePersonagem,
+        .infos{
+            background-color: darkcyan;
+            color: lawngreen;
+            font-size: 1.5rem;
+            text-align: center;
+            border-radius: 15px;
+            width: 30vw;
+        }
 }

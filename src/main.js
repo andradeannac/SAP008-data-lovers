@@ -26,7 +26,7 @@ function filtrarGenero(e) {
     e.preventDefault();
     const genero = document.getElementById("selectGenero").value;  
     const mostrarGenero = filterData(devolvePersonagens,"gender",genero);
-    document.getElementById("percentualTotal").innerHTML = `o total de personagens nessa categoria é ${computeStats(mostrarGenero)}`
+    document.getElementById("percentualTotal").innerHTML = `O total de personagens nessa categoria é ${computeStats(mostrarGenero)}`
     mostrarPersonagens(mostrarGenero);
 }
     
@@ -34,7 +34,7 @@ function filtrarStatus(e) {
     e.preventDefault();
     const status = document.getElementById("selectStatus").value;
     const mostrarStatus = filterData(devolvePersonagens,"status", status)
-    document.getElementById("percentualTotal").innerHTML = `o total de personagens nessa categoria é ${computeStats(mostrarStatus)}`
+    document.getElementById("percentualTotal").innerHTML = `O total de personagens nessa categoria é ${computeStats(mostrarStatus)}`
     mostrarPersonagens(mostrarStatus);
 }
     
@@ -42,7 +42,7 @@ function filtrarEspecie(e) {
     e.preventDefault();
     const especie = document.getElementById("selectEspecie").value;
     const mostrarEspecie = filterData(devolvePersonagens,"species",especie)
-    document.getElementById("percentualTotal").innerHTML = `o total de personagens nessa categoria é ${computeStats(mostrarEspecie)}`
+    document.getElementById("percentualTotal").innerHTML = `O total de personagens nessa categoria é ${computeStats(mostrarEspecie)}`
     mostrarPersonagens(mostrarEspecie);
 }    
     
