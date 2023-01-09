@@ -16,7 +16,7 @@
 ## 1. Resumo do projeto
 O objetivo deste projeto foi construir uma página web para consumir um conjuto de dados sobre os personagens da série Rick and Morty e adaptá-los às necessidades do usuário. Desenvolvemos a página visando estas necessidades, possibilitando tanto visualizar todos os personagens e seus dados, como filtrar por espécie, status, gênero ou ordenar de A-Z ou de Z-A.
 Foi utilizado um banco de dados json, HTML5, CSS3 e Vanilla JavaScript.
-Confira o projeto [aqui](https://thaiscantarelli.github.io/SAP008-data-lovers/).
+Confira o projeto [aqui](https://andradeannac.github.io/SAP008-data-lovers/src/index.html).
 
 ## 2. Sobre a série
 Rick and Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.
@@ -71,5 +71,5 @@ Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
 [Thais Cantarelli](https://www.linkedin.com/in/thais-cantarelli-455957247/)
 
-[Anna Clara Andrade](https://github.com/andradeannac)
+[Anna Clara Andrade](https://www.linkedin.com/in/andradeannac)
 
