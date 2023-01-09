@@ -14,7 +14,8 @@
 ***
 
 ## 1. Resumo do projeto
-O objetivo deste projeto é construir uma página web para visualizar um conjunto de dados sobre os personagens da série Rick and Morty que se adapte às necessidades do usuário. Através das necessidades do usuário desenvolvemos a página possibilitando tanto visualizar todos os personagens como filtrar, ordenar os dados e mostrar informações relevantes através de cálculo de porcentagem quando for acionado algum filtro de espécie/status ou gênero.
+O objetivo deste projeto foi construir uma página web para consumir um conjuto de dados sobre os personagens da série Rick and Morty e adaptá-los às necessidades do usuário. Desenvolvemos a página visando estas necessidades, possibilitando tanto visualizar todos os personagens e seus dados, como filtrar por espécie, status, gênero ou ordenar de A-Z ou de Z-A.
+Foi utilizado um banco de dados json, HTML5, CSS3 e Vanilla JavaScript.
 Confira o projeto [aqui](https://thaiscantarelli.github.io/SAP008-data-lovers/).
 
 ## 2. Sobre a série
